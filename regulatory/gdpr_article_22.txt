@@ -1,0 +1,5 @@
+GDPR Article 22 (Automated individual decision-making, including profiling):
+- Individuals have the right not to be subject to a decision based solely on automated processing that produces legal or similarly significant effects.
+- Such decisions require suitable safeguards, including the right to obtain human intervention, to express a point of view, and to contest the decision.
+- Explanations should identify the main factors driving the decision and how they relate to the individual’s data.
+- Profiling and automated credit decisions must be transparent and fair, especially when impacting access to financial services.

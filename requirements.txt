@@ -1,0 +1,22 @@
+fastapi
+uvicorn[standard]
+scikit-learn
+seaborn
+pandas
+numpy
+joblib
+xgboost
+pydantic
+lime
+shap
+clingo # is it available via pip?
+python-multipart
+requests
+aiofiles
+matplotlib
+
+openai
+sentence-transformers
+faiss-cpu
+tqdm
+python-dotenv

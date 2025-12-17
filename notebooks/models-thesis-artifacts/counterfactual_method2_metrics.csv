@@ -1,0 +1,7 @@
+metric,value
+flip_rate,0.9
+avg_delta_prob_all,0.1435333143053383
+avg_delta_prob_flipped,0.1630534089891085
+avg_delta_prob_not_flipped,-0.03214753784859345
+avg_n_changes_flipped,6.833333333333333
+avg_n_changes_not_flipped,4.0

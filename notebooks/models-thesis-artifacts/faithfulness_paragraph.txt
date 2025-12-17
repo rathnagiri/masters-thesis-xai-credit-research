@@ -1,0 +1,16 @@
+
+Faithfulness analysis:
+
+Dataset: German Credit (UCI).
+Model evaluated: random_forest.
+Number of instances sampled: 50.
+Top-K ablated: 3.
+
+Results:
+- Mean probability drop after ablating top-3 SHAP features: 0.1041
+- Median probability drop: 0.1306
+- Percentage of instances with probability drop > 5%: 62.0%
+- Percentage of instances with any probability drop (>0): 68.0%
+
+Interpretation:
+A higher mean (and median) probability drop indicates that SHAP-identified features are actually influential for the model's predictions, supporting faithfulness of the explanations. The distribution of drops (histogram, CDF) and the scatter of original prediction vs drop help reveal whether strong explanations are concentrated in high-confidence predictions or are uniform across the sample. The most frequently ablated processed features (saved as an image) show which processed variables (numerical or one-hot encoded categories) commonly drive model decisions across the evaluated instances.

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/Users/rathnagirinagarajan/ResearchCoding/xai-credit-research/regulatory/basel_iii_principles.txt",
+    "title": "Basel Iii Principles",
+    "text": "Basel III (capital adequacy and risk management) \u2013 excerpted principles relevant to credit decisions:\n- Banks must hold sufficient capital against credit risk; decisions should account for probability of default, loss given default, and exposure at default.\n- Risk-weighted assets (RWA) must reflect the risk profile of exposures; high debt-to-income or poor credit history should increase perceived risk.\n- Stress testing and prudent underwriting should be documented; explanations should reference solvency and repayment capacity when relevant.\n- Disclosures should be clear and support supervisory review; credit denials should highlight material risk factors."
+  },
+  {
+    "path": "/Users/rathnagirinagarajan/ResearchCoding/xai-credit-research/regulatory/gdpr_article_22.txt",
+    "title": "Gdpr Article 22",
+    "text": "GDPR Article 22 (Automated individual decision-making, including profiling):\n- Individuals have the right not to be subject to a decision based solely on automated processing that produces legal or similarly significant effects.\n- Such decisions require suitable safeguards, including the right to obtain human intervention, to express a point of view, and to contest the decision.\n- Explanations should identify the main factors driving the decision and how they relate to the individual\u2019s data.\n- Profiling and automated credit decisions must be transparent and fair, especially when impacting access to financial services."
+  },
+  {
+    "path": "/Users/rathnagirinagarajan/ResearchCoding/xai-credit-research/regulatory/mifid_ii_transparency.txt",
+    "title": "Mifid Ii Transparency",
+    "text": "MiFID II (investor protection and transparency) \u2013 excerpted principles relevant to automated decisions:\n- Communications and recommendations must be fair, clear, and not misleading; key factors influencing a decision should be disclosed.\n- Suitability and appropriateness assessments should consider the customer\u2019s profile, risk tolerance, and objectives.\n- Conflicts of interest must be managed and disclosed; automated advice or decisions should not disadvantage clients unfairly.\n- Records should be kept to evidence how decisions were made and which inputs were considered material."
+  }
+]

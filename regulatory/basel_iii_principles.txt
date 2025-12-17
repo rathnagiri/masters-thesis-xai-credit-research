@@ -1,0 +1,5 @@
+Basel III (capital adequacy and risk management) – excerpted principles relevant to credit decisions:
+- Banks must hold sufficient capital against credit risk; decisions should account for probability of default, loss given default, and exposure at default.
+- Risk-weighted assets (RWA) must reflect the risk profile of exposures; high debt-to-income or poor credit history should increase perceived risk.
+- Stress testing and prudent underwriting should be documented; explanations should reference solvency and repayment capacity when relevant.
+- Disclosures should be clear and support supervisory review; credit denials should highlight material risk factors.

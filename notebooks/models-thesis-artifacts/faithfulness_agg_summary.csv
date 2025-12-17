@@ -1,0 +1,2 @@
+model,top_k,n_samples,mean_prob_drop,median_prob_drop
+random_forest,3,50,0.10410178502276263,0.13055515914760435

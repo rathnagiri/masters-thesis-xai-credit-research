@@ -1,0 +1,7 @@
+Model: random_forest
+Samples evaluated: 50
+Top-K (ablated): 3
+Mean probability drop (top-K ablation): 0.1041
+Median probability drop: 0.1306
+Percentage of instances with >5% probability drop: 62.0%
+Percentage of instances with any drop (>0): 68.0%

@@ -1,0 +1,5 @@
+MiFID II (investor protection and transparency) – excerpted principles relevant to automated decisions:
+- Communications and recommendations must be fair, clear, and not misleading; key factors influencing a decision should be disclosed.
+- Suitability and appropriateness assessments should consider the customer’s profile, risk tolerance, and objectives.
+- Conflicts of interest must be managed and disclosed; automated advice or decisions should not disadvantage clients unfairly.
+- Records should be kept to evidence how decisions were made and which inputs were considered material.

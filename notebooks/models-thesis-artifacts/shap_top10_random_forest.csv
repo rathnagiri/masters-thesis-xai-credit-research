@@ -1,0 +1,11 @@
+feature,mean_abs_shap
+ord__checking_status,0.08255834376809228
+ord__savings_status,0.030079131394013293
+num__credit_amount,0.02916568734239737
+num__duration,0.02564121533500438
+cat__credit_history_A34,0.02317300100166286
+num__age,0.02218710453872437
+cat__purpose_A40,0.01988933675023029
+ord__employment,0.01606791740848143
+num__installment_rate,0.01578099211447111
+cat__other_installment_plans_A143,0.014560003624677756

@@ -1,0 +1,2 @@
+idx,orig_pred,orig_prob,cf_pred,cf_prob,fidelity_flip,applied_changes
+1,0,0.46967448878891455,1,0.5060784879143384,True,"[('credit_history', 'A32'), ('employment', 'A73'), ('installment_rate', 2.0), ('existing_credits', 0.0), ('credit_amount', 3192.0), ('installment_rate', 1.0)]"

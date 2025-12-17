@@ -1,0 +1,11 @@
+feature,mean_abs_shap
+ord__checking_status,1.0528892
+num__credit_amount,0.8003071
+num__duration,0.4443357
+ord__savings_status,0.41709268
+num__age,0.38284397
+cat__purpose_A41,0.36628148
+cat__credit_history_A34,0.3405534
+ord__employment,0.32192123
+num__residence_since,0.29269442
+cat__purpose_A40,0.2727419

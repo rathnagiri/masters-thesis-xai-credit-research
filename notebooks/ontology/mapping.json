@@ -1,0 +1,248 @@
+{
+  "checking_status": {
+    "ontology_term": "fibo:CheckingAccountStatus",
+    "value_map": {
+      "A11": "negative_balance",
+      "A12": "low_balance",
+      "A13": "high_balance",
+      "A14": "no_checking_account"
+    },
+    "value_notes": {
+      "A11": "< 0 DM",
+      "A12": "0 to < 200 DM",
+      "A13": ">= 200 DM",
+      "A14": "no checking account"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "duration": {
+    "ontology_term": "fibo:LoanDurationMonths",
+    "notes": "Numeric; binned into short/medium/long durations.",
+    "bins": [
+      {
+        "max": 12,
+        "label": "short_term"
+      },
+      {
+        "max": 36,
+        "label": "medium_term"
+      },
+      {
+        "max": 72,
+        "label": "long_term"
+      },
+      {
+        "label": "very_long_term"
+      }
+    ]
+  },
+  "credit_history": {
+    "ontology_term": "fibo:CreditHistory",
+    "value_map": {
+      "A30": "no_credits_or_all_credits_paid_back_duly",
+      "A31": "all_credits_paid_duly_at_this_bank",
+      "A32": "existing_credits_paid_duly",
+      "A33": "delayed_payments_in_past",
+      "A34": "critical_account_or_other_credits_existing"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "purpose": {
+    "ontology_term": "fibo:LoanPurpose",
+    "value_map": {
+      "A40": "new_car",
+      "A41": "used_car",
+      "A42": "furniture_or_equipment",
+      "A43": "radio__or_tv",
+      "A44": "domestic_appliances",
+      "A45": "repairs",
+      "A46": "education",
+      "A47": "vacation",
+      "A48": "retraining",
+      "A49": "business",
+      "A410": "others"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "credit_amount": {
+    "ontology_term": "fibo:CreditAmount",
+    "bins": [
+      {
+        "max": "Q1",
+        "label": "low_amount"
+      },
+      {
+        "max": "Q2",
+        "label": "medium_amount"
+      },
+      {
+        "max": "Q3",
+        "label": "high_amount"
+      },
+      {
+        "label": "very_high_amount"
+      }
+    ],
+    "notes": "Q1/Q2/Q3 quantiles omputed from training distribution at runtime for explanation-only use."
+  },
+  "savings_status": {
+    "ontology_term": "fibo:SavingsAccountStatus",
+    "value_map": {
+      "A61": "very_low_savings",
+      "A62": "low_savings",
+      "A63": "medium_savings",
+      "A64": "high_savings",
+      "A65": "no_savings_or_unknown"
+    },
+    "value_notes": {
+      "A61": "< 100 DM",
+      "A62": "100 to < 500 DM",
+      "A63": "500 to < 1000 DM",
+      "A64": ">= 1000 DM",
+      "A65": "unknown / no savings account"
+    },
+    "notes": "See value_map for ontology labeling."
+  },
+  "employment": {
+    "ontology_term": "fibo:EmploymentTenure",
+    "value_map": {
+      "A71": "unemployed",
+      "A72": "short_tenure",
+      "A73": "medium_tenure",
+      "A74": "long_tenure",
+      "A75": "very_long_tenure"
+    },
+    "value_notes": {
+      "A72": "< 1 year",
+      "A73": "1 to < 4 years",
+      "A74": "4 to < 7 years",
+      "A75": ">= 7 years"
+    },
+    "notes": "See value_map for ontology labeling."
+  },
+  "age": {
+    "ontology_term": "fibo:PersonAge",
+    "bins": [
+      {
+        "max": 25,
+        "label": "young_adult"
+      },
+      {
+        "max": 45,
+        "label": "adult"
+      },
+      {
+        "max": 65,
+        "label": "middle_aged"
+      },
+      {
+        "label": "senior"
+      }
+    ],
+    "notes": "Numeric; binned into age groups."
+  },
+  "existing_credits": {
+    "ontology_term": "fibo:ExistingCreditCount",
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "personal_status": {
+    "ontology_term": "fibo:PersonalStatus",
+    "value_map": {
+      "A91": "male_divorced_separated",
+      "A92": "female_divorced_separated_married",
+      "A93": "male_single",
+      "A94": "male_married_widowed",
+      "A95": "female_single"
+    },
+    "derived": {
+      "gender_map": {
+        "A91": "male",
+        "A92": "female",
+        "A93": "male",
+        "A94": "male",
+        "A95": "female"
+      },
+      "marital_status_map": {
+        "A91": "divorced_separated",
+        "A92": "divorced_separated_or_married",
+        "A93": "single",
+        "A94": "married_widowed",
+        "A95": "single"
+      }
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "other_debtors": {
+    "ontology_term": "fibo:GuarantorStatus",
+    "value_map": {
+      "A101": "none",
+      "A102": "co_applicant",
+      "A103": "guarantor"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "property": {
+    "ontology_term": "fibo:AssetOwnership",
+    "value_map": {
+      "A121": "real_estate",
+      "A122": "insurance_or_building_society",
+      "A123": "car_or_other_asset",
+      "A124": "unknown_or_no_property"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "other_installment_plans": {
+    "ontology_term": "fibo:OtherInstallmentPlans",
+    "value_map": {
+      "A141": "bank",
+      "A142": "stores",
+      "A143": "none"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "housing": {
+    "ontology_term": "fibo:HousingStatus",
+    "value_map": {
+      "A151": "rent",
+      "A152": "own",
+      "A153": "free"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "job": {
+    "ontology_term": "fibo:OccupationCategory",
+    "value_map": {
+      "A171": "unemployed_or_unskilled_non_resident",
+      "A172": "unskilled_resident",
+      "A173": "skilled_employee",
+      "A174": "management_self_employed_highly_qualified"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "telephone": {
+    "ontology_term": "fibo:TelephoneAvailability",
+    "value_map": {
+      "A191": "no_phone",
+      "A192": "has_phone"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "foreign_worker": {
+    "ontology_term": "fibo:ForeignWorkerStatus",
+    "value_map": {
+      "A201": "yes",
+      "A202": "no"
+    },
+    "notes": "See value_map/bins for ontology labeling."
+  },
+  "installment_rate": {
+    "ontology_term": "fibo:DebtToIncomeRatioCategory",
+    "value_map": {
+      "1": "low_burden",
+      "2": "moderate_burden",
+      "3": "high_burden",
+      "4": "very_high_burden"
+    },
+    "notes": "Used as a proxy for debt-to-income burden since explicit income is unavailable in the dataset."
+  }
+}
